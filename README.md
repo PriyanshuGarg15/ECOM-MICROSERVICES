@@ -57,13 +57,13 @@ Access is restricted so that users can only interact with their own orders and a
 - **Scalable Architecture**: Built on microservices architecture, allowing seamless scalability and flexibility.
 - **Modular Design**: Each microservice is independent, enabling easy maintenance and updates.
 - **Secure Transactions**: Payment processing ensures the highest level of security for users' financial transactions.
-- **Version Control**: We use Git to track changes in our code. Links to individual microservice repositories:
+- **Version Control**: We used Git to track changes in our code. Links to individual microservice repositories:
   - [User Microservice Repository](https://github.com/PriyanshuGarg15/ecom-user)
   - [Product Microservice Repository](https://github.com/PriyanshuGarg15/ecom-product)
   - [Order Microservice Repository](https://github.com/PriyanshuGarg15/ecom-orders)
   - [Payment Microservice Repository](https://github.com/PriyanshuGarg15/ecom-payment)
 - **Error Handling**: Comprehensive error handling and logging are implemented across our microservices.
-- **Testing**: We have written unit tests for critical components, including concurrency control mechanisms.
+- **Testing**: We have written unit tests for critical components, including concurrency control mechanisms (refer User Microservice).
 - **Deployment**: Clear instructions for deploying and running our microservices are provided in the [Deployment Guide](deployment.md).
 
 ## Bonus Features
